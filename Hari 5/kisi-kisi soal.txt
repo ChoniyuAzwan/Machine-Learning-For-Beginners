@@ -1,0 +1,99 @@
+1. Theoretical ML:
+a. Apakah yang dimaksud dengan overfitting? Apa akibatnya?
+b. Mengapa kita fokus ke test error, bukan pada training error?
+c. Bagaimana kita mensimulasikan test error? (cross validation)
+
+2. Bias-Variance Tradeoff:
+a. Jelaskan dekomposisi dari training-error! (bias-variance)
+b. Bagaimana hubungan bias training error dengan model complexity?
+c. Bagaimana hubungan variance training error dengan model complexity?
+d. Bagaimana hubungan test-error dengan model comlexity?
+e. Bagaimana mencari model complexity paling tepat untuk mendapat test-error terendah?
+f. Bagaimana hubungan antara jumlah observasi dengan test error?
+
+3. KNN:
+a. Jelaskan cara KNN melakukan klasifikasi step-by-step!
+b. Jelaskan cara KNN melakukan regresi step-by-step!
+c. Mengapa KNN dapat terkena Curse of Dimensionality?
+d. Bagaimanakah cara meningkatkan model complexity pada KNN? 
+
+4. Linear Regression:
+a. Bagaimana cara Linear Regression dalam melakukan prediksi? 
+(build a linear function from input to output which minimize training error)
+b. Bagaimana cara Linear Regression untuk melakukan optimisasi?
+(closed form and SGD)
+c. Bagaimana cara intepretasi coefficient model Linear Regression: Y = 4 + 3X1?
+d. Bagaimana cara menentukan variable selection yang meminimalisir error pada Linear Regression?
+(Backward Selection, Forward Selection, Hybrid Selection)
+e. Bagaimana cara meningkatkan model complexity dari Linear Regression?
+(tambahkan polynomial feature/input)
+f. Bagaimana mencari model complexity paling tepat untuk mendapat test-error terendah pada Linear Regression?
+g. Apakah quantifikasi error dari Linear Regression?
+
+5. Ridge Regression:
+a. Apa perbedaan dari Ridge dan Lasso Regression dengan Linear Regression?
+b. Apa fungsi utama dari Ridge dan Lasso Regression? 
+(reduce overfitting by increasing bias and reducing variance with L1 or L2)
+c. Apa perbedaan koefisien hasil dari Ridge dan Lasso?
+d. Bagaimana cara menentukan hyperparameter dari L1 dan L2 yang pas untuk Lasso dan Ridge?
+
+6. Logistic Regression:
+a. Apa perbedaan Logistic Regression dengan Linear Regression?
+b. Bagaimana cara Logistic Regression melakukan classification?
+(linear regression + sigmoid)
+c. what is the main functionality of sigmoid?
+d. what is the error of logistic regression? (negative log likelihood loss)
+e. Bagaimana cara meningkatkan complexity dari Logistic Regression?
+f. Apakah Logistic Regression dapat menggunakan L2 norm regulerizer?
+
+7. SVM:
+a. Bagaimana cara Linear SVC dalam melakukan klasifikasi?
+b. Bagaimana cara Linear SVC dalam melakukan klasifikasi jika data tidak linearly separable?
+(slack dan kernel)
+c. Bagaimanakah cara Kernel bekerja?
+d. Bagaimanakah cara meningkatkan model complexity dari SVM Kernel?
+
+8. Decision Tree:
+a. Bagaimana cara Decision Tree melakukan klasifikasi?
+b. Bagaimana cara Decision Tree melakukan regresi?
+c. Apakah yang dimaksud dengan Weak Learning?
+d. Mengapa Decision Tree hampir selalu overfitting?
+
+9. Bagging dan Random Forest:
+a. Bagaimana cara menurunkan overfitting dari Decision Tree?
+b. Mengapa Bagging dapat menurunkan variance?
+c. Apakah jumlah tree atau bagging berpengaruh pada overfitting?
+d. Apakah perbedaan dari Bagging dan Random Forest?
+e. Mengapa Random Forest melakukan random variable estimation?
+
+
+10. Boosting:
+a. Apakah perbedaan dari Bagging dan Random Forest dan Boosting?
+b. Apakah yang dimaksud dengan Strong Learning?
+c. Bagaimana boosting bekerja?
+d. Apakah Boosting dapat overfitting? 
+
+SELAMAT BELAJAR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
